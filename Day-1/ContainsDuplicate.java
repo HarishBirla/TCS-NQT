@@ -20,6 +20,6 @@ import java.util.Scanner;
              set.add(ele);
          }
          if(nums.length == set.size())return false;
-         return true;1
+         return true;
      }
  }
