@@ -1,7 +1,7 @@
 import java.util.*;
-public class main{
+public class codingKaro{
 
-     public int[] productExceptSelf(int[] nums) {
+    public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int leftProd [] = new int[nums.length];
         leftProd[0] = 1;
@@ -32,5 +32,6 @@ public class main{
             nums[i] = Integer.parseInt(s[i]);
         }
         int ans[] = productExceptSelf(nums);
+        System.out.println((Arrays.toString(ans)));
     }
 }
